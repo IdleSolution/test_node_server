@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    font-size: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#head{
+    color: rgb(90, 120, 218);
+}
+
+.navbar{
+    border: 1px solid gray;
+}
+
+.navbar-header{
+    padding: 1rem 10rem;
+    font-size: 4rem;
+    color: rgb(90, 120, 218);
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.post-form{
+    margin-top: 6rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.submit-btn{
+    margin: 1rem 5rem;
+}
+
+.centering-container{
+    display: flex;
+    justify-content: center;
+}
+
+.posts-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+}
+
+.post-container{
+    width: 50rem;
+    height: 20rem;
+    border: 1px solid black;
+    margin: 0 1rem 2rem 1rem;
+    position: relative;
+    overflow-wrap: break-word;
+}
+
+.post-text{
+    font-size: 3rem;
+    padding: 2rem 0 0 2rem;
+}
+
+.post-date{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 1rem 1rem 0;
+}
+
+.post-username{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 2rem 2rem 0;
+    font-size: 1.5rem;
+}
+
+.x-delete{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    color: red;
+    padding: 1rem 1rem 0 0;
+    cursor: pointer;
+}
+
+.user{
+    text-align: center;
+    font-size: 4rem;
+    padding: 5rem 0;
+    text-transform: uppercase;
+}
+
+.user-posts-header{
+    text-align: center;
+    font-size: 2rem;
+}
+
