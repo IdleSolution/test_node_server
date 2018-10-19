@@ -1,6 +1,3 @@
-keys = require('./keys.js')
-
-
 module.exports = {
     development: {
         client: 'pg',
