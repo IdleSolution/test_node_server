@@ -8,7 +8,7 @@ module.exports = {
         connection: {
             host: 'localhost',
             user: 'idlesolution',
-            password: keys.development_db_password,
+            password: 'cbdum123',
             database: 'twitter'
         }
     },
